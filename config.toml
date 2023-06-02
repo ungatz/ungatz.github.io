@@ -1,0 +1,30 @@
+baseurl = "/"
+contentdir = "content"
+publishdir = "public"
+
+canonifyurls = true
+relativeURLS = false
+
+theme = "hugo-theme-console"
+title = "thoughts"
+languageCode = "en-us"
+summaryLength = 42
+
+copyright = "the author does not care about copyrights."
+
+[author]
+name = "Sanad"
+
+[params]
+description = "an attempt to express."
+showFooterCredits = true
+math = true
+useIcon = true
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "feed"
+
+[markup.goldmark.renderer]
+unsafe= true
