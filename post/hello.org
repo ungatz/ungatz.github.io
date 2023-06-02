@@ -1,0 +1,8 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+
+#+title: Hello there!
+#+hugo_tags: some tags
+
+General Kenobi
