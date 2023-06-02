@@ -5,8 +5,8 @@ publishdir = "public"
 canonifyurls = true
 relativeURLS = false
 
-theme = "ananke"
-title = "velocities-of-thought"
+theme = "hugo-theme-console"
+title = "thoughts"
 languageCode = "en-us"
 summaryLength = 42
 
@@ -25,3 +25,6 @@ useIcon = true
 [outputFormats.RSS]
 mediatype = "application/rss+xml"
 baseName = "feed"
+
+[markup.goldmark.renderer]
+unsafe= true
