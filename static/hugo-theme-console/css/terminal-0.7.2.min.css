@@ -99,6 +99,10 @@ ul,
   padding: 0;
 }
 
+footer {
+    font-size: 8px;
+}
+
 blockquote,
 h1,
 ol,
