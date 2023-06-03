@@ -1,0 +1,22 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+#+macro: kbd @@html:<kbd>$1</kbd>@@
+
+#+title: capture-002
+#+date: 2023-06-02 Jun 18:34
+#+math: true
+#+hugo_tags: test-post
+#+hugo_categories: blog
+#+hugo_custom_front_matter: :license ""
+
+Hi there,
+
+If you're here, you shouldn't be. This is an unfinished place. The creator is thinking of what to write and how to
+write. If you want to read whatever that is, please come back!
+
+If you're still here, look at some beautiful latex.
+
+$e^{i\pi} + 1 = 0$
+
+$\frac{\sqrt{a^2+4b^2\sin^2\alpha}}{2}$

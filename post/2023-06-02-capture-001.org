@@ -1,6 +1,19 @@
 #+hugo_base_dir: ../
 #+hugo_section: posts
 #+hugo_auto_set_lastmod: t
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+#+options: tex:dvisvgm
+#+macro: kbd @@html:<kbd>$1</kbd>@@
+
+#+title: capture-001
+#+date: 2023-06-02 Jun 18:33
+#+hugo_tags: test-post
+#+hugo_categories: blog
+#+hugo_custom_front_matter: :license ""
+
+
 #+macro: kbd @@html:<kbd>$1</kbd>@@
 
 #+title: capture-001
