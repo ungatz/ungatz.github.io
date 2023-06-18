@@ -6,7 +6,7 @@ canonifyurls = true
 relativeURLS = false
 
 theme = "hugo-theme-console"
-title = "thoughts"
+title = "blog"
 languageCode = "en-us"
 summaryLength = 42
 

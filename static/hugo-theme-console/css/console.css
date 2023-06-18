@@ -1,30 +1,30 @@
 @font-face {
-    font-family: 'Sarasa Mono Slab CL';
-    src: url('../font/sarasa-mono-slab-cl-regular.ttf') format('truetype');
+    font-family: 'Fern Micro';
+    src: url('../font/FernMicro-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Sarasa Mono Slab CL';
-    src: url('../font/sarasa-mono-slab-cl-italic.ttf') format('truetype');
+    font-family: 'Fern Micro';
+    src: url('../font/FernMicro-Italic.ttf') format('truetype');
     font-style: italic;
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Sarasa Mono Slab CL';
-    src: url('../font/sarasa-mono-slab-cl-bold.ttf') format('truetype');
+    font-family: 'Fern Micro';
+    src: url('../font/FernMicro-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Sarasa Mono Slab CL';
-    src: url('../font/sarasa-mono-slab-cl-bolditalic.ttf') format('truetype');
+    font-family: 'Fern Micro';
+    src: url('../font/FernMicro-BoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -33,8 +33,8 @@
 :root {
     --global-font-size: 16px;
     --global-font-color: #444;
-    --mono-font-stack: Sarasa Mono Slab CL, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    --font-stack: Sarasa Mono Slab CL, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --mono-font-stack: Fern Micro, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --font-stack: Fern Micro, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
@@ -50,6 +50,9 @@
     }
 }
 
+.figure {
+    width: 45%;
+}
 
 .sidebar-heading {
     text-transform: none;
@@ -106,11 +109,11 @@ h1 {
     color: #666;
     background-color: transparent;
     border-color: #333;
-    font-weight: 400;
+    font-weight: 300;
     font-family: var(--font-stack);
-    padding: 6px 12px;
-    font-size: 18px;
-    line-height: 1.55;
+    padding: 4px 10px;
+    font-size: 12px;
+    line-height: 0.75;
     border-radius: 0;
     margin-left: 0;
     margin-top: 5px;

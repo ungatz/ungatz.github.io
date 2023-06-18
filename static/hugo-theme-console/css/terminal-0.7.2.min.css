@@ -125,11 +125,20 @@ h1,
 }
 
 h1::after {
-  content: "≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡";
+  content: "";
   position: absolute;
-  bottom: 5px;
-  left: 0;
-  display: var(--display-h1-decoration);
+  left: 7%;
+  bottom: 16px;
+  width: 150px;
+  height: 10px;
+  transform: skew(-12deg) translateX(-50%);
+  background: linear-gradient(to left, #f69ec4, #9bc8dc 100%);
+  z-index: -1;
+  /* content: "≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡"; */
+  /* position: absolute; */
+  /* bottom: 5px; */
+  /* left: 0; */
+  /* display: var(--display-h1-decoration); */
 }
 
 h1 + *,
@@ -146,6 +155,11 @@ h6 {
   margin-bottom: var(--global-line-height);
   font-weight: 600;
 }
+
+h2 {
+  font-size: italic;
+}
+
 
 blockquote {
   position: relative;
@@ -431,7 +445,7 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 40%;
 }
 
 .progress-bar {
@@ -1010,4 +1024,9 @@ figure > figcaption {
 
 .hljs-strong {
   font-weight: bold;
+}
+
+.toc {
+  margin-left: auto;
+  margin-right: auto;
 }
