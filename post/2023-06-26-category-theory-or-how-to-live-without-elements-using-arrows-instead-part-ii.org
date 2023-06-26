@@ -1,0 +1,10 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+#+macro: kbd @@html:<kbd>$1</kbd>@@
+
+#+title: Category Theory or: How to live without elements, using arrows instead (Part II)
+#+date: 2023-06-26 Jun 11:59
+#+hugo_tags: math category-theory
+#+hugo_categories: blog
+#+hugo_custom_front_matter: :license ""

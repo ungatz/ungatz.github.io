@@ -10,5 +10,12 @@
 {{ end }}
 <br/><br/>
 {{ .Content }}
-{{ template "_internal/disqus.html" . }}
+<script src="https://utteranc.es/client.js"
+        repo="ungatz.github.io"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+</script>
 {{ end }}
+
