@@ -6,7 +6,7 @@ canonifyurls = true
 relativeURLS = false
 
 theme = "hugo-theme-console"
-title = "blog"
+title = "web-log"
 languageCode = "en-us"
 summaryLength = 42
 
@@ -28,3 +28,19 @@ baseName = "feed"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'friendly'
+    tabWidth = 4

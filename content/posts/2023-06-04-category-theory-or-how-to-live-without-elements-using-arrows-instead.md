@@ -10,8 +10,7 @@ draft = false
 license = ""
 +++
 
-After my recent attempt to learn the core of category theory and exploration of Saunders Mac Lane's insightful books, I have
-I tried to organize my notes, thoughts, and highlights in this post. The post is divided into
+After my recent attempt to learn the core of category theory and exploration of Saunders Mac Lane's insightful books, I have tried to organize my notes, thoughts, and highlights in this post. The post is divided into
 two parts: the origins of category theory are covered in the first one, and next comes the core machinery for working with
 categories.
 
