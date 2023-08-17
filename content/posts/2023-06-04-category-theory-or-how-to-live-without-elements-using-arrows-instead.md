@@ -45,11 +45,7 @@ categories.
 
 ## Origins {#origins}
 
-Mathematics is said to have its origins in “human cultural activities,” as Mac Lane put it. These activities lead to some ideas, like the activity of observing, which leads to a notion of the “symmetry” of objects, and this
-The general idea of “symmetry” is formalized as a symmetry group of figures or formulae (which are defined on an infinite set).
-becomes a transformation group). This
-Perspective comes from the intuitionists, who argue that mathematics is a human construct, not an objective truth, and that
-is to say that there would be no math without the brain. The _ideas_ that have their origins in the activities are said to have some
+Mathematics is said to have its origins in “human cultural activities,” as Mac Lane put it. These activities lead to some ideas, like the activity of observing, which leads to a notion of the “symmetry” of objects, and this general idea of “symmetry” is then formalized as a symmetry group of figures or formulae (which when defined on an infinite set becomes a transformation group). This perspective comes from the intuitionists, who argue that mathematics is a human construct, not an objective truth, and that is to say that there would be no math without the brain. The _ideas_ that have their origins in these activities are said to have some
 intuitive content, which can then be _formalized._ By _formal,_ we mean a list of rules, axioms, or methods of proof that can be applied without attention to the “meaning” but which give results that do have the correct interpretation.
 
 <style>.org-center { margin-left: auto; margin-right: auto; text-align: center; }</style>
@@ -121,8 +117,7 @@ Another way to look at this is that instead of looking at mathematics as a whole
     -   such that the following laws are valid,
         -   Associative law: for every \\(f:A\to B\\), \\(g :B\to C\\) and \\(h :C\to C\\) we have \\(h\circ(g\circ f)=(h\circ g)\circ f\\).
         -   Unit law: for every \\(f:A\to B\\) we have \\(f\circ\mathbf{1}\_{A} = f = \mathbf{1}\_{B}\circ f\\) where \\(\mathbf{1}\_{A}\\) is the identity morphism.
--   Since, anything that satisfies this definition is a category, we can say that category theory is abstract algebra.
-    of arrows.
+-   Since, anything that satisfies this definition is a category, we can say that category theory is abstract algebra of arrows.
 -   To construct a category, this question has to be answered, given a mathematical structure, what are the morphisms preserving
     this structure? which, in turn, gives us the arrows of a category.
 -   In each category \\(\mathbf{C}\\) with two objects \\(a\\) and \\(b\\) there exists a collection,
